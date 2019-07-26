@@ -21,3 +21,17 @@ LIRI (Language Interpretation and Recognition Interface) is a CLI (command line 
 *Moment
 
 *Dotenv
+
+### How to use this app:
+
+**Step 1:**
+
+*On the command line enter one of the following commands...
+
+`node liri.js movie-this movie name`
+
+`node liri.js concert-this song name`
+
+`node liri.js spotify-this artist name`
+
+`node liri.js do-what-it-says`
