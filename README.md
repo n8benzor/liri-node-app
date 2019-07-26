@@ -7,5 +7,7 @@ LIRI (Language Interpretation and Recognition Interface) is a CLI (command line 
 ### API's and NPM Dependencies used:
 
 **API's**
+
 *OMDB (online movie database)
+
 *Band in Town (api used to search for concert dates and venues)
