@@ -101,7 +101,7 @@ switch (action) {
         
         axios.get(queryUrl).then(
             function(response) {
-                // console.log(response.data);
+                console.log(response.data);
                 console.log("--------------------")
                 console.log("Movie title: " + response.data.Title);
                 console.log("Release year: " + response.data.Year);
