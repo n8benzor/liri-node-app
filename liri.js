@@ -43,7 +43,7 @@ switch (action) {
       doWhatItSays();
       break;
     }
-// concertThis function search the bands in town api and displays predetermined result items from a search query
+// concertThis function search the bands in town api and displays results for concert information based on the rtist or band entered on the cli
     function concertThis(){
         if(!value){
             console.log("I'm sorry there are no upcoming shows, please try another artist or band.")
@@ -66,7 +66,7 @@ switch (action) {
         }
         })
     }
-
+//spoitfyThis function using the node-spotify-api npm package: this function will take the value and run a spoity search using an endpoint to return information about that song
     function spotifyThis(){
         if(!value){
             value = "the sign ace of base";
@@ -89,7 +89,7 @@ switch (action) {
               console.log(err);
             });
     }
-
+// movieThis function uses the OMDB api to return information about a specific movie the user enters on the command line
     function movieThis(){
         
         if(!value){
@@ -114,7 +114,7 @@ switch (action) {
                 console.log("--------------------")
   })
     }
-
+// doWhatItSays function will return a default search using the spotify-this command to display "The Sign" by ace of Base. This function will also test the concert-this and movie-this features.
     function doWhatItSays(){
         fs.readFile("random.txt", "utf8", function(error, data) {
 
@@ -122,12 +122,7 @@ switch (action) {
             if (error) {
               return console.log(error);
             }
-            // console.log(data);
-          
-            // Then split it by commas (to make it more readable)
             const dataArr = data.split(",");
-          
-            // We will then re-display the content as an array for later use.
             // console.log(dataArr);
             action = dataArr[0];
             value = dataArr[1];
