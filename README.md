@@ -3,7 +3,8 @@
 ### Development
  - Developed for: University of Arizona Coding Bootcamp
  - Developed by: Nathan Benzor
- - Demo of functioning app:
+ - Developed using: Node.js, Javascript
+ - Demo of functioning app: [Video Link](https://www.youtube.com/watch?v=FAZ5A9gybso&feature=youtu.be)
 
   
 
@@ -60,4 +61,4 @@ On the command line enter one of the following commands...
 The app will return data depending on the command entered from step 1.  An example of a possible output can look like..
 ![Liri node app movie-this example](https://raw.githubusercontent.com/n8benzor/liri-node-app/master/images/movie-example.png)
 
-### To watch a video of this app running:
+
