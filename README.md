@@ -4,7 +4,7 @@
  - Developed for: University of Arizona Coding Bootcamp
  - Developed by: Nathan Benzor
  - Developed using: Node.js, Javascript
- - Demo of functioning app: [Video Link](https://www.youtube.com/watch?v=FAZ5A9gybso&feature=youtu.be)
+ - Demo of functioning app: [Video Link](https://youtu.be/FAZ5A9gybso)
 
   
 
