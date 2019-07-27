@@ -50,10 +50,15 @@ You will need to install the correct npm packages to your CLI. To do this simply
 
 **Step 2:**
 On the command line enter one of the following commands...
+
 `node liri.js movie-this movie name`
+
 `node liri.js concert-this song name`
+
 `node liri.js spotify-this artist name`
+
 `node liri.js do-what-it-says`
+
 ![cli example](https://raw.githubusercontent.com/n8benzor/liri-node-app/master/images/cli-exmple.png)
 
 
